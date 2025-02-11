@@ -1,64 +1,12 @@
 @import "styles/mixin.scss";
-
-// Variabeln
-// Farben
-$color-primary: #ff7a00;
-$color-secondary: #ff5eb3;
-
-$color-blue-light: #6e52ff;
-$color-blue-dark: #0038ff;
-
-$color-purple-light: #9327ff;
-$color-purple-bright: #fc71ff;
-
-$color-cyan: #00bee8;
-$color-teal: #1fd7c1;
-
-$color-orange-light: #ffa35e;
-$color-orange-dark: #ffbb2b;
-
-$color-yellow-bright: #ffc701;
-$color-yellow-light: #ffe62b;
-$color-green-bright: #c3ff2b;
-
-$color-red-light: #ff745e;
-$color-red-dark: #ff4646;
-
-// Fonts
-$font-primary: "Inter";
-
-// Schriftgrößen
-$font-size-small: 14px;
-$font-size-regular: 16px;
-$font-size-medium: 20px;
-$font-size-large: 32px;
+@import "styles/fonts.scss";
+@import "styles/colors.scss";
+@import "styles/responsive.scss";
 
 body {
-  display: flex;
-  justify-content: center;
   font-family: "Inter", sans-serif;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-  overflow: hidden;
-}
-
-// Fonts
-
-@font-face {
-  font-family: "Inter";
-  src: url("../src/assets/fonts/Inter-VariableFont_opsz,wght.ttf")
-    format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../src/assets/fonts/Inter-Italic-VariableFont_opsz,wght.ttf")
-    format("truetype");
-  font-weight: 100 900;
-  font-style: italic;
+  // overflow-y: hidden;
 }

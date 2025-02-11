@@ -1,3 +1,5 @@
+// Flexbox
+
 @mixin dFlex($jc: center, $ai: center, $g: 0px) {
   display: flex;
   border: 1px solid red;
@@ -6,4 +8,11 @@
   gap: $g;
   width: 500px;
   height: 500px;
+}
+
+// Fonts
+
+@mixin font($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
 }

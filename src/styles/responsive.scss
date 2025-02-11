@@ -1,0 +1,95 @@
+/* Anpassung */
+
+@media (max-width: 1520px) {
+  .leftFrame {
+    min-width: 15%;
+    margin-bottom: 20px;
+  }
+
+  .masterFrame {
+    width: 85%;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 1330px) {
+  .leftFrame {
+    min-width: 17%;
+  }
+
+  .masterFrame {
+    width: 83%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .leftFrame {
+    min-width: 20%;
+  }
+
+  .masterFrame {
+    width: 80%;
+  }
+}
+
+@media (max-width: 980px) {
+  .leftFrame {
+    min-width: 25%;
+  }
+
+  .masterFrame {
+    width: 75%;
+  }
+}
+
+@media (max-width: 780px) {
+  .leftFrame {
+    min-width: 26%;
+  }
+
+  .masterFrame {
+    width: 74%;
+  }
+}
+
+/* Tablet Breakpoint */
+
+@media (max-width: 768px) {
+  .section-inner {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .leftFrame {
+    display: none;
+  }
+
+  .masterFrame {
+    min-width: 100%;
+    // padding: 10px;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+}
+
+/* Mobile Breakpoint */
+
+@media (max-width: 430px) {
+  .section-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftFrame {
+    display: none; // Blendet die linke Navigation aus
+  }
+
+  .masterFrame {
+    width: 100%;
+    padding: 5px 5px 70px 5px; // Zusätzliches Padding unten für die mobile Navigation
+    align-items: stretch;
+    justify-content: flex-start;
+    text-align: center;
+  }
+}

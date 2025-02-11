@@ -1,36 +1,39 @@
 @import "./../styles.scss";
 
-section {
+.section-container {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
-  box-sizing: border-box;
-  width: 1440px;
-  margin: 0 auto;
+  justify-content: center;
+}
+
+.section-inner {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
   border: 3px solid red;
-  height: 100vh;
 }
 
 .leftFrame {
-  width: 17%;
+  width: 13%;
   border: 3px solid blue;
 }
 
 .masterFrame {
   @include dFlex($jc: center, $ai: center, $g: 0px);
   flex-direction: column;
-  width: 83%;
+  width: 87%;
   height: 100%;
   border: 3px solid black;
 }
 
 .topFrame {
-  // @include dFlex($jc: space-between, $ai: center, $g: 0px);
   width: 100%;
   height: auto;
   border: 3px solid green;
 }
 
 .mainFrame {
-  // @include dFlex($jc: none, $ai: center, $g: 0px);
   width: 100%;
   flex-grow: 1;
   border: 3px solid yellow;

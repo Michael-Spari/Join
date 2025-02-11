@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_opsz,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+// Fonts
+
+$font-primary: "Inter";
+
+// Combined font styles
+$font-small: 400 12px;
+$font-regular: 400 16px;
+$font-medium: 400 20px;
+$font-bold: 700 16px;
+$font-large: 700 21px;
+$font-xl: 600 64px;
